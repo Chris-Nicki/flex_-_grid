@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: baseline;
+    justify-content: center;
+    height: 100vh;
+    gap: 5px;
+    background-image: url(./images/SC_background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 50px;
+}
+@media only screen and (min-width: 600px) {
+    .nav{
+        display: table-column !important;
+        width: 50%; 
+        min-width: 225px;
+    }
+      /* .footer{
+        display: table-column-group !important;
+        width: 50%; 
+        min-width: 225px;
+    } */
+
+}
+.header {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    border: 5px solid white;
+    background-image: url(./images/mining_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    text-align: center;
+    margin: 2px ;
+    font-family: monospace;
+    font-size: larger;
+    color: #cc352a;
+   
+}
+
+
+.info {
+    
+    height: 300px;
+    width: 600px;
+    border: 5px solid white;
+    display: flex;
+    align-self: center;
+    align-content: space-between;
+    padding: 40px;
+    gap: 5px;
+    align-items: center;
+    background-image: url(./images/c2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    font-size: large;
+    color: #865218;
+
+    
+}
+#submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
